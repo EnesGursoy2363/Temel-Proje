@@ -61,6 +61,11 @@ namespace _30._09._2025Gp1
             }
         }
    
+        /// <summary>
+        /// Hesaplama İşlemi Yapar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             DialogResult tus =MessageBox.Show("İşlemi onaylıyormusunuz?","YBS Pizza",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
@@ -98,6 +103,11 @@ namespace _30._09._2025Gp1
             
         }
 
+        /// <summary>
+        /// Nesneleri native haline getirir
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             groupBox2.Enabled = false;

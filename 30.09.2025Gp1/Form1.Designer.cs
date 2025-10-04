@@ -170,7 +170,6 @@
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Malzemeler";
-    
             // 
             // checkBox10
             // 
@@ -201,7 +200,6 @@
             this.checkBox8.TabIndex = 7;
             this.checkBox8.Text = "pastırma + 21,75";
             this.checkBox8.UseVisualStyleBackColor = true;
-           
             // 
             // checkBox7
             // 
@@ -222,7 +220,6 @@
             this.checkBox6.TabIndex = 5;
             this.checkBox6.Text = "sucuk + 15,75 tl";
             this.checkBox6.UseVisualStyleBackColor = true;
-          
             // 
             // checkBox5
             // 
@@ -253,7 +250,6 @@
             this.checkBox3.TabIndex = 2;
             this.checkBox3.Text = "biber + 7,50 tl";
             this.checkBox3.UseVisualStyleBackColor = true;
-
             // 
             // checkBox2
             // 
@@ -305,7 +301,6 @@
             0,
             0,
             0});
-  
             // 
             // button1
             // 
@@ -332,7 +327,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(606, 338);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -341,6 +336,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);

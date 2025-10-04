@@ -9,7 +9,7 @@ namespace _30._09._2025Gp1
     internal static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// Uygulamanın ana giriş noktası.
         /// </summary>
         [STAThread]
         static void Main()
